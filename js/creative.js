@@ -7,6 +7,16 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    // Initialize WOW.js Scrolling Animations
+    new WOW().init();
+
+    // Offset for Main Navigation
+    $('#mainNav').affix({
+        offset: {
+            top: 100
+        }
+    })
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -34,15 +44,5 @@
             maxFontSize: '65px'
         }
     );
-
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
-
-    // Initialize WOW.js Scrolling Animations
-    new WOW().init();
 
 })(jQuery); // End of use strict
