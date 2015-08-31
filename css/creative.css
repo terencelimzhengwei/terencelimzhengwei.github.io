@@ -110,6 +110,13 @@ p {
     color:#fff !important;
     z-index:2;
 }
+.caption h3,h4{
+    font-size:0.8em;
+}
+
+.caption p{
+    font-size:0.8em;
+}
 .thumbnail {
     position:relative;
     overflow:hidden;
@@ -424,6 +431,15 @@ header .header-content .header-content-inner p {
     .service-box {
         margin: 20px auto 0;
     }
+}
+
+@media(min-width:768px) {
+    .caption p{
+        font-size:1em;
+    }
+    .caption h3,h4{
+        font-size:1em;
+    }    
 }
 
 .displayImg{
