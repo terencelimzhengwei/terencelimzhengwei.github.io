@@ -433,13 +433,22 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(min-width:768px) {
-    .caption p{
-        font-size:1em;
+
+@media(min-width:500px) {
+    .caption h3,h4{
+        font-size:1.5em;
     }
+    .caption p{
+        font-size:1.5em;
+    }    
+}
+@media(min-width:1200px) {
     .caption h3,h4{
         font-size:1em;
-    }    
+    }
+    .caption p{
+        font-size:1em;
+    }        
 }
 
 .displayImg{
