@@ -426,15 +426,6 @@ header .header-content .header-content-inner p {
     }
 }
 
-@media(max-width:768px) {
-    .caption p{
-        font-size:1.5em;
-    }
-    .caption h3,h4{
-        font-size:2.3em;
-    }    
-}
-
 .displayImg{
   /*max-height:30%;
   max-width:30%;*/
