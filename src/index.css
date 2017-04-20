@@ -1,7 +1,7 @@
-html, body{
+html, body, .container{
 	margin: 0;
 	padding: 0;
+	height: 100%;
 	/*background: #2e3250;*/
-	background-image: url(http://sercappelle.be/assets/front.jpg);
 }
 

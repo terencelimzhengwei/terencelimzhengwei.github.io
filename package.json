@@ -16,7 +16,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build:prod": "npm run build; cp -R ./build/* .; rm -r ./build; "
   },
   "homepage": "https://terencelimzhengwei.github.io"
 }
