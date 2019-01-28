@@ -7,14 +7,14 @@ export default {
         color: "#3CA9D1",
         blur: 5
       },
-      opacity: 0.3
+      opacity: 0.5
     },
     size: {
       random: true,
       value: 4
     },
     opacity: {
-      value: 0.3
+      value: 0.5
     }
   },
   retina_detect: true,

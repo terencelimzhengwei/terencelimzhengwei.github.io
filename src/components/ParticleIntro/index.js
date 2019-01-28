@@ -17,11 +17,6 @@ const particleSection = () => {
           height: "100%"
         }}
       />
-      <div className="container">
-        <div className="name-label-wrapper">
-          <span>Terence Lim Zheng Wei</span>
-        </div>
-      </div>
     </div>
   )
 }
